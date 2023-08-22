@@ -4,19 +4,19 @@
 
 - 首页(轮播图/新闻详情/懒加载)
 
-    ![首页](D:\a_WorkSpace\ZhihuDaily1\images\首页.gif)
+    ![首页](https://github.com/Lyon1011/ZhihuDaily/raw/main/images/首页.gif)
 
 - 个人中心/收藏
 
-    ![](D:\a_WorkSpace\ZhihuDaily1\images\个人中心.gif)
+    ![](https://github.com/Lyon1011/ZhihuDaily/raw/main/images/个人中心.gif)
 
 - 信息更新
 
-    ![](D:\a_WorkSpace\ZhihuDaily1\images\更新信息.gif)
+    ![](https://github.com/Lyon1011/ZhihuDaily/raw/main/images/更新信息.gif)
 
 - 登录
 
-    ![](D:\a_WorkSpace\ZhihuDaily1\images\登录.gif)
+    ![](https://github.com/Lyon1011/ZhihuDaily/raw/main/images/登录.gif)
 
 ## 前端技术栈
 
