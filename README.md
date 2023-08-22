@@ -1,5 +1,25 @@
 # 知乎日报
+
+## 项目概况
+
+- 首页(轮播图/新闻详情/懒加载)
+
+    ![首页](D:\a_WorkSpace\ZhihuDaily1\images\首页.gif)
+
+- 个人中心/收藏
+
+    ![](D:\a_WorkSpace\ZhihuDaily1\images\个人中心.gif)
+
+- 信息更新
+
+    ![](D:\a_WorkSpace\ZhihuDaily1\images\更新信息.gif)
+
+- 登录
+
+    ![](D:\a_WorkSpace\ZhihuDaily1\images\登录.gif)
+
 ## 前端技术栈
+
 - creat-react-app
 - React18
 - redux/react-redux
@@ -90,6 +110,7 @@
 
 - 在 `zhihu-admin`  目录下使用 `yarn start` 打开后台, 得到返回语句 `THE WEB SERVICE SUCCESSFULLY AND LISTENING TO THE PORT：7100！`  则代表启动成功
 - 在 `zhihu-daily` 目录下使用 `yarn start` 打开, 连接至后台后返回数据
+- 项目的设计稿是750px, 响应式布局针对750px做了向下兼容, 大于750px可能显示会不正常
 - 若返回数据出错, 大概率是知乎官方犯病, 要点击控制台返回的链接进行验证
 
 ## Q & A
