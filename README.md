@@ -1,10 +1,10 @@
 # 知乎日报
-## 技术栈
+## 前端技术栈
 - creat-react-app
 - React18
 - redux/react-redux
 - react-router-dom V6
-- Fetch
+- fetch
 - less/styled-components
 - AntdMobile
 
@@ -78,3 +78,30 @@
 `-- yarn.lock
 
 ```
+
+## 项目亮点
+
+- 对 `Antd-Mobile` 中频繁使用或使用上操作相同的组件进行了二次封装
+- 实现了 `REM ` 响应式布局和样式处理
+- 对 `fetch` 进行了二次封装
+- 封装了常用的工具类及样式重置文件
+
+## 项目启动
+
+- 在 `zhihu-admin`  目录下使用 `yarn start` 打开后台, 得到返回语句 `THE WEB SERVICE SUCCESSFULLY AND LISTENING TO THE PORT：7100！`  则代表启动成功
+- 在 `zhihu-daily` 目录下使用 `yarn start` 打开, 连接至后台后返回数据
+- 若返回数据出错, 大概率是知乎官方犯病, 要点击控制台返回的链接进行验证
+
+## Q & A
+
+> components 下的组件为什么没有用单个文件夹存放
+
+开始搭建骨架时组件并不多, 而且初衷是认为可以依靠 `styled-componets` 控制样式所以不会有很多的 `css/less` 文件, 后续会对文件进行更新, 让结构更加合理
+
+> 问什么会采用 `styled-components`  和 `css/less` 混用的方式
+
+项目采用的 `REM` 响应式布局是通过使用 `lib-flexible` 和 `postcss-pxtorem` 实现的, 前者可以设置 `REM` 和 `px` 的换算比例, 后者可以将 `px` 自动转化为 `REM` , 但是这两者不支持 `styled-components` 这种将样式写在 `js/jsx` 文件的方式, 只能识别 `css/less` 文件, 所以项目的前期使用了后者的方式; 后期在网上找到了可以让 `lib-flexible` 和 `postcss-pxtorem` 也能支持 `styled-components` 的插件后就减少了 `css/less` 文件的使用. 后续我也会统一改为一种方式, 让结构合理化
+
+> 项目的后台情况
+
+项目的后台不是自己写的, 具体工作方式是使用知乎官方的API进行数据获取, 以及后台研发的个人中心系统, 这些数据存储在了 `JSON` 文件中
