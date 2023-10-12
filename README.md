@@ -45,7 +45,7 @@
 |   |-- App.jsx
 |   |-- api
 |   |   |-- http.js // 封装好的fetch
-|   |   `-- index.js // 通过封装好的fetch调用API访问后台并返回数据
+|   |   `-- server.js // 通过封装好的fetch调用API访问后台并返回数据
 |   |-- assets
 |   |   |-- images // 静态图片资源
 |   |   |-- reset.min.css // 封装好的全局css初始化组件
@@ -67,16 +67,16 @@
 |   |   `-- SkeletonAgain.less
 |   |-- index.css
 |   |-- index.css.map
-|   |-- index.js
+|   |-- server.js
 |   |-- index.less // 全局样式
 |   |-- router
-|   |   |-- index.js // 封装路由组件
+|   |   |-- server.js // 封装路由组件
 |   |   `-- routes.js // 路由表
 |   |-- setupProxy.js // 跨域代理
 |   |-- store
 |   |   |-- action // redux-action
 |   |   |-- action-type.js
-|   |   |-- index.js // redux-store中间件设置和reducer使用
+|   |   |-- server.js // redux-store中间件设置和reducer使用
 |   |   `-- reducer // redux-reducer
 |   `-- views
 |       |-- Detail.css
