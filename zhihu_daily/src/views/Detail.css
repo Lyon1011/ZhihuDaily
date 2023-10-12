@@ -1,0 +1,72 @@
+.detail-box .content {
+  overflow-x: hidden;
+  margin: 0;
+  padding-bottom: 90px;
+}
+.detail-box .content .img-place-holder {
+  overflow: hidden;
+  height: auto;
+}
+.detail-box .content .img-place-holder img {
+  width: 100%;
+  margin: 0;
+}
+.detail-box .content .meta .avatar {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.detail-box .tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 9;
+  box-sizing: border-box;
+  width: 750px;
+  height: 90px;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+}
+.detail-box .tab-bar .back {
+  box-sizing: border-box;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 100px;
+  font-size: 40px;
+  border-right: 2px solid #ccc;
+}
+.detail-box .tab-bar .icons {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 50px;
+}
+.detail-box .tab-bar .icons .adm-badge-wrapper,
+.detail-box .tab-bar .icons span {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 40px;
+}
+.detail-box .tab-bar .icons span:nth-last-of-type(1) {
+  color: #aaa;
+}
+.detail-box .tab-bar .icons span:nth-of-type(1).stored {
+  color: #108ee9;
+}
+.detail-box .tab-bar .icons .adm-badge-wrapper .adm-badge-fixed {
+  right: 30%;
+  top: 10%;
+}
+.detail-box .tab-bar .icons .adm-badge-wrapper .adm-badge {
+  background: none;
+}
+.detail-box .tab-bar .icons .adm-badge-wrapper .adm-badge .adm-badge-content {
+  color: #555;
+}
+/*# sourceMappingURL=Detail.css.map */

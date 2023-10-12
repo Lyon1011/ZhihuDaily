@@ -1,0 +1,28 @@
+.login-box .adm-form {
+  padding: 30px;
+}
+.login-box .adm-list-item-content-prefix {
+  width: 100px;
+}
+.login-box .adm-form-footer .adm-button {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  height: 70px;
+  line-height: 20px;
+  font-size: 28px;
+  border-radius: 0;
+  border-radius: 5px;
+}
+.login-box .adm-input-element {
+  font-size: 28px;
+}
+.login-box .adm-form-item {
+  font-size: 28px;
+}
+.login-box .adm-list-item-content-extra .adm-button {
+  width: 180px;
+  font-size: 24px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=login.css.map */
